@@ -1,5 +1,6 @@
 {
   "main": "index.js",
+  "types": "./typings/index.d.ts",
   "name": "simple-http-requests",
   "author": "HyperKNF <admin@hyperknf.com>",
   "description": "simple-http-requests is a work-in-progress npm package and library with the objective to make HTTP requests easier and less complicated",
