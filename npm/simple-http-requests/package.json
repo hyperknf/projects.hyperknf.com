@@ -1,0 +1,20 @@
+{
+  "main": "index.js",
+  "name": "simple-http-requests",
+  "author": "HyperKNF <admin@hyperknf.com>",
+  "description": "simple-http-requests is a work-in-progress npm package and library with the objective to make HTTP requests easier and less complicated",
+  "keywords": [
+    "http",
+    "requests",
+    "req",
+    "https"
+  ],
+  "license": "MIT",
+  "version": "1.0.0g",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.10"
+  }
+}
