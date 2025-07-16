@@ -7,9 +7,16 @@
         </title>
     </head>
     <body>
-        Redirecting
+        Loading...
         <script>
-            window.location.href = "https://youtu.be/dQw4w9WgXcQ"
+            fetch("https://www.youtube.com/", { method: "HEAD" }).then(response => {
+                if (response.ok)
+                    window.location.href = "https://youtu.be/dQw4w9WgXcQ";
+                else
+                    window.location.href = "https://b23.tv/evSR0RU";
+            }).catch(error => {
+                window.location.href = "https://youtu.be/dQw4w9WgXcQ"
+            });
         </script>
     </body>
 </html>
