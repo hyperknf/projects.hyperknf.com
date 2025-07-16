@@ -9,7 +9,7 @@
     <body>
         Loading...
         <script>
-            fetch("https://www.youtube.com/", { method: "HEAD" }).then(response => {
+            fetch("https://www.youtube.com/").then(response => {
                 if (response.ok)
                     window.location.href = "https://youtu.be/dQw4w9WgXcQ";
                 else
